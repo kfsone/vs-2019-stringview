@@ -15,13 +15,14 @@ See:
 
 # Reproducing
 
-1. Clone the repos: git clone https://github.com/kfsone/vs-2019-stringview
-2. Open Visual Studio 2019 16.2.5 Community pointed to the above folder
-3. Wait for the CMake cache to generate
-4. Build All
-5. Start without Debugging to verify you see "Hello, world!"
-6. Close Visual Studio
-7. Re-open visual studio and re-select the project
-8. Open main.cpp
+. Clone the repos: git clone https://github.com/kfsone/vs-2019-stringview
+. Open Visual Studio 2019 16.2.5 Community pointed to the above folder
+. Wait for the CMake cache to generate
+. Build All
+. Start without Debugging to verify you see "Hello, world!"
+. Close Visual Studio
+. *Re-open visual studio and re-select the project*
+. Open main.cpp
+. Wait for intellisense to finish reloading
 ** Note `void output(std::string_view str)` has red-squiggles under `string_view`
 
