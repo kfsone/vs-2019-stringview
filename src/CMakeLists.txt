@@ -1,0 +1,9 @@
+SET(EXAMPLE_SRCS main.cpp)
+SET(EXAMPLE_HDRS main.h ${CONFIG_H})
+
+ADD_EXECUTABLE(
+	example
+
+	${EXAMPLE_SRCS}
+	${EXAMPLE_HDRS}
+)
